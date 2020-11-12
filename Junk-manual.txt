@@ -1,0 +1,55 @@
+man-page(30 October 2017)                                                                         man-page(30 October 2017)
+
+
+
+NAME
+       Junk.sh - This tool is to restore files with other additional functionality.
+
+SYNOPSIS
+       Junk.sh [OPTION] Junk.sh [OPTION][FILE] Junk.sh
+
+DESCRIPTION
+       This tool is to restore files if they are accidentally removed from the file system with other additional functionality.
+
+OPTIONS
+       -r     Recover i.e. get a specified file from the junk directory and place it in the current directory.
+
+       -d     Delete interactively the contents of the junk directory.
+
+       -t     Display total usage in bytes of junk directories for all users in the system.
+
+       -w     to monitor and update every 15s the creation, change and deletion of files in the junk directory.
+
+       -k     This option will terminate the watch script (if it is running).
+
+EXAMPLES
+       ./Junk.sh
+              To use the menu system.
+
+       ./Junk.sh-l
+              To list.
+
+       ./Junk.sh-r[File]
+              To recover.
+
+       ./Junk.sh-d
+              To delete.
+
+       ./Junk.sh-t
+              To show total.
+
+       ./Junk.sh-w
+              To start watch.
+
+       ./Junk.sh-k
+              To Kill watch.
+
+REPORTING BUGS
+       If you find any bugs please email me at KYOUSS200@caledonian.ac.uk
+
+AUTHOR
+       Kameran Youssef S1038287
+
+
+
+Junk-man-page                                               1.0                                   man-page(30 October 2017)
